@@ -1,5 +1,5 @@
 # Agile Data Demands & Ticketing Dashboard
-
+![screenshot](dashboard_ss.png)
 ## Overview
 This project is an end-to-end Power BI dashboard designed to track agile team performance and manage data warehouse service requests. It simulates a Jira ticketing environment to monitor SLA compliance, visualize squad workloads, and forecast sprint velocity, mirroring the daily operations of a banking Business Data Delivery Tribe.
 
@@ -14,14 +14,6 @@ This project is an end-to-end Power BI dashboard designed to track agile team pe
 * **Predictive Analytics ("What-If"):** Implemented an interactive numeric parameter allowing stakeholders to simulate the impact of hiring additional developers on projected sprint velocity.
 
 * **Enterprise Data Governance:** Configured Row-Level Security (RLS) to restrict dashboard views based on login credentials, ensuring squad managers only access data relevant to their specific agile teams.
-
-## Repository Contents
-
-* `Agile_Ticketing_Dashboard.pbix`: The interactive Power BI dashboard file.
-
-* `data_generator.py`: The Python script (using Pandas and NumPy) utilized to synthesize 6 months of relational agile ticketing data and intentional SLA delays.
-
-* `dashboard_ss.png`: A high-resolution image of the final dashboard layout.
 
 ## How to View
 
